@@ -1,0 +1,24 @@
+{
+  "name": "lts-lib",
+  "version": "1.0.0",
+  "description": "lts-lib common used lib",
+  "main": "index.ts",
+  "repository": "https://github.com/MMedhatZC/lts-lib.git",
+  "author": "MMedhat <mbassiouny@zewailcity.edu.eg>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "peerDependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "@mui/x-data-grid": "^6.5.0",
+    "@types/react": "^18.2.7",
+    "react": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
