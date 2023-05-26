@@ -1,2 +1,2 @@
-import useCustomTable from "./custom-table";
-export { useCustomTable };
+import CustomTable from "./CustomTable";
+export { CustomTable };
