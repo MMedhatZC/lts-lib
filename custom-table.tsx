@@ -1,3 +1,4 @@
+/* eslint-disable prefer-const */
 import React, { useMemo, useState, useRef } from "react";
 import {GridColDef, GridRowId, GridToolbarContainer, GridToolbarExport, GridToolbarDensitySelector} from "@mui/x-data-grid";
 import { GridDensity, GridToolbarColumnsButton, GridValueGetterParams, GridRowParams,  DataGrid } from "@mui/x-data-grid";
@@ -81,7 +82,7 @@ interface customTableProps {
   // ) => void;
 }
 
-function customTable(props: customTableProps) {
+function useCustomTable(props: customTableProps) {
   const isSmallScreen = useMediaQuery('(max-width: 425px)');
 
   let {
@@ -275,4 +276,4 @@ function customTable(props: customTableProps) {
   );
 }
 
-export default customTable;
+export default useCustomTable;
